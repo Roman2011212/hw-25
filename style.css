@@ -1,0 +1,33 @@
+.holder {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.item-1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 140px;
+  background-color: rgb(255, 171, 237);
+}
+.item-2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  background-color: rgb(124, 211, 233);
+  z-index: 99999;
+}
+.item-3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 150px;
+  right: 40px;
+  background-color: rgb(129, 248, 139);
+}
